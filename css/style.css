@@ -15,6 +15,25 @@ img {
     --footer-col : #1a1a1a;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 .5rem;
+    font-weight: bold;
+}
+
 /* COMMON */
 .container {
     width: 80%;
@@ -38,6 +57,22 @@ img {
     justify-content: space-between;
 }
 
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
 .row {
     margin-top: 10rem;
 }
@@ -49,10 +84,6 @@ img {
 
 .price-red {
     color: red;
-}
-
-.img-before:hover {
-    display: none;
 }
 
 span {
@@ -96,7 +127,8 @@ span {
 
 /* HEADER */
 header {
-    height: 90px;
+    height: 75px;
+    color: white;
     background-color: var(--header-col);
     margin-bottom: 3rem;
     position: fixed;
@@ -104,6 +136,15 @@ header {
     left: 0;
     width: 100%;
     z-index: 3;
+}
+
+.logo {
+    width: 13%;
+}
+
+.menu {
+    margin: 0 8rem;
+    font-size: 1.1rem;
 }
 
 /* MAIN */
@@ -123,3 +164,18 @@ header {
     z-index: 1;
 }
 
+.img-before:hover {
+    display: none;
+}
+
+.img-after:hover {
+    position: relative;
+    z-index: 2;
+}
+
+/* FOOTER */
+footer {
+    height: 110px;
+    background-color: var(--footer-col);
+    margin-top: 3.5rem;
+}

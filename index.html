@@ -6,12 +6,33 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/debug.css">
     <title>Boolando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <!-- header -->
-    <header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nisi consequatur illum iste? Mollitia nam, exercitationem necessitatibus quis consequuntur repellendus corporis sed? Repellat magnam distinctio porro cumque tempora suscipit debitis?</p>
+    <header class="flex-container justify-between align-center">
+
+        <!-- menu -->
+        <ul class="flex-container justify-start align-center menu">
+            <li><a href="">Donna</a></li>
+            <li><a href="">Uomo</a></li>
+            <li><a href="">Bambini</a></li>
+        </ul>
+        <!-- /menu -->
+
+        <!-- logo -->
+        <img class="logo" src="img/boolean-logo.png" alt="boolean logo">
+        <!-- /logo -->
+
+        <!-- navigation icons -->
+        <ul class="flex-container justify-end align-center menu">
+            <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+            <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+        <!-- /navigation icons -->
+
     </header>
     <!-- /header -->
 
@@ -22,25 +43,26 @@
 
         <div class="row flex-container justify-between wrapper">
 
+            <!-- card1 -->
             <div class="cards card1 flex-container flex-direction-col justify-between">
 
                 <div class="shopimg">
 
-                    <img class="img-after" src="img/1b.webp" alt="article 1 1st image"> 
+                    <img class="img-after" src="img/1b.webp" alt="article 1 1st image">
                     <img class="img-before" src="img/1.webp" alt="article 1 1st image">
 
                     <div class="icons">
-    
+
                         <span class="discount">-50%</span>
                         <span class="sustainability">Sostenibilità</span>
-    
+
                     </div>
-    
+
                     <span class="wishlist">&hearts;</span>
-                    
+
                 </div>
-                
-                
+
+
                 <div class="item-text">
 
                     <span>Levi's</span>
@@ -51,25 +73,27 @@
                 </div>
 
             </div>
+            <!-- /card1 -->
 
+            <!-- card2 -->
             <div class="cards card2 flex-container flex-direction-col justify-between">
 
                 <div class="shopimg">
 
-                    <img class="img-after" src="img/2b.webp" alt="article 1 1st image"> 
+                    <img class="img-after" src="img/2b.webp" alt="article 1 1st image">
                     <img class="img-before" src="img/2.webp" alt="article 1 1st image">
 
                     <div class="icons">
-    
+
                         <span class="discount">-30%</span>
-    
+
                     </div>
-    
+
                     <span class="wishlist">&hearts;</span>
-                    
+
                 </div>
-                
-                
+
+
                 <div class="item-text">
 
                     <span>Guess</span>
@@ -80,25 +104,27 @@
                 </div>
 
             </div>
+            <!-- /card2 -->
 
+            <!-- card3 -->
             <div class="cards card3 flex-container flex-direction-col justify-between">
 
                 <div class="shopimg">
 
-                    <img class="img-after" src="img/3b.webp" alt="article 1 1st image"> 
+                    <img class="img-after" src="img/3b.webp" alt="article 1 1st image">
                     <img class="img-before" src="img/3.webp" alt="article 1 1st image">
 
                     <div class="icons">
-    
+
                         <span class="discount">-30%</span>
-    
+
                     </div>
-    
+
                     <span class="wishlist">&hearts;</span>
-                    
+
                 </div>
-                
-                
+
+
                 <div class="item-text">
 
                     <span>Come zucchero filato</span>
@@ -109,26 +135,28 @@
                 </div>
 
             </div>
+            <!-- /card3 -->
 
+            <!-- card4 -->
             <div class="cards card4 flex-container flex-direction-col justify-between">
 
                 <div class="shopimg">
 
-                    <img class="img-after" src="img/4b.webp" alt="article 1 1st image"> 
+                    <img class="img-after" src="img/4b.webp" alt="article 1 1st image">
                     <img class="img-before" src="img/4.webp" alt="article 1 1st image">
 
                     <div class="icons">
-    
+
                         <span class="discount">-50%</span>
                         <span class="sustainability">Sostenibilità</span>
-    
+
                     </div>
-    
+
                     <span class="wishlist">&hearts;</span>
-                    
+
                 </div>
-                
-                
+
+
                 <div class="item-text">
 
                     <span>Levi's</span>
@@ -139,19 +167,21 @@
                 </div>
 
             </div>
+            <!-- /card4 -->
 
+            <!-- card5 -->
             <div class="cards card5 flex-container flex-direction-col justify-between">
 
                 <div class="shopimg">
 
-                    <img class="img-after" src="img/5b.webp" alt="article 1 1st image"> 
+                    <img class="img-after" src="img/5b.webp" alt="article 1 1st image">
                     <img class="img-before" src="img/5.webp" alt="article 1 1st image">
-    
+
                     <span class="wishlist">&hearts;</span>
-                    
+
                 </div>
-                
-                
+
+
                 <div class="item-text">
 
                     <span>Maya Deluxe</span>
@@ -161,25 +191,27 @@
                 </div>
 
             </div>
+            <!-- /card5 -->
 
+            <!-- card6 -->
             <div class="cards card6 flex-container flex-direction-col justify-between">
 
                 <div class="shopimg">
 
-                    <img class="img-after" src="img/6b.webp" alt="article 1 1st image"> 
+                    <img class="img-after" src="img/6b.webp" alt="article 1 1st image">
                     <img class="img-before" src="img/6.webp" alt="article 1 1st image">
 
                     <div class="icons">
-    
+
                         <span class="sustainability">Sostenibilità</span>
-    
+
                     </div>
-    
+
                     <span class="wishlist">&hearts;</span>
-                    
+
                 </div>
-                
-                
+
+
                 <div class="item-text">
 
                     <span>Esprit</span>
@@ -189,8 +221,12 @@
                 </div>
 
             </div>
+            <!-- /card6 -->
+
         </div>
-       </div> 
+
+       </div>
+       
     </main>
     <!-- /main -->
 

@@ -39,6 +39,7 @@ img {
 
 .cards {
     width: calc(100% / 3);
+    margin: 2rem 0;
 }
 
 .price-red {
@@ -49,6 +50,44 @@ img {
     display: none;
 }
 
+span {
+    display: inline-block;
+}
+
+.wishlist {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 2rem;
+    background-color: white;
+    padding: .5rem 1rem;
+    z-index: 2;
+}
+
+.icons {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: .3rem .5rem;
+}
+
+.sustainability {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: .3rem 1rem;
+}
+
+.wishlist:hover {
+    color: red;
+}
 
 /* HEADER */
 header {

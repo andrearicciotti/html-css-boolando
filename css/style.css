@@ -31,14 +31,19 @@ img {
 
 .wrapper {
     flex-wrap: wrap;
+    gap: .1rem;
 }
 
 .justify-between {
     justify-content: space-between;
 }
 
+.row {
+    margin-top: 10rem;
+}
+
 .cards {
-    width: calc(100% / 3);
+    width: calc(96% / 3);
     margin: 2rem 0;
 }
 
@@ -91,9 +96,14 @@ span {
 
 /* HEADER */
 header {
-    height: 50px;
+    height: 90px;
     background-color: var(--header-col);
     margin-bottom: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 /* MAIN */

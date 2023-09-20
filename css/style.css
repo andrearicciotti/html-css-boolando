@@ -1,0 +1,12 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+:root {
+    --header-col : #ed722e;
+    --footer-col : #1a1a1a;
+}
